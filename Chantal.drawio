@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-20T15:34:58.593Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" version="20.8.3" etag="ilVrODElm7vXLycTd7T4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-20T15:37:07.400Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" version="20.8.3" etag="dfoZC5Udme0_HCjBP4AE" type="github">
   <diagram id="cJjfC1C_qjLzQAoBC49V" name="Page-1">
     <mxGraphModel dx="954" dy="554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -30,7 +30,7 @@
             <mxPoint x="180" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Du6NrvwhtqqdNJyeoaqp-5" value="MongoDB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Du6NrvwhtqqdNJyeoaqp-5" value="MongoDB&lt;br&gt;(Partitioning using pymongo)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Du6NrvwhtqqdNJyeoaqp-6" value="Crypto Partitioning Indexing method" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -650,7 +650,7 @@
         <mxCell id="Du6NrvwhtqqdNJyeoaqp-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Du6NrvwhtqqdNJyeoaqp-149" target="Du6NrvwhtqqdNJyeoaqp-153">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Du6NrvwhtqqdNJyeoaqp-149" value="MongoDB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Du6NrvwhtqqdNJyeoaqp-149" value="MongoDB&lt;br&gt;(Partitioning using pymongo)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Du6NrvwhtqqdNJyeoaqp-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Du6NrvwhtqqdNJyeoaqp-150" target="Du6NrvwhtqqdNJyeoaqp-159">
@@ -674,7 +674,7 @@
         <mxCell id="Du6NrvwhtqqdNJyeoaqp-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Du6NrvwhtqqdNJyeoaqp-153" target="Du6NrvwhtqqdNJyeoaqp-149">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Du6NrvwhtqqdNJyeoaqp-153" value="Matchmaking.py (ex. Standard deviation)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Du6NrvwhtqqdNJyeoaqp-153" value="Matchmaking.py (ex. Standard deviation using numpy)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Du6NrvwhtqqdNJyeoaqp-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Du6NrvwhtqqdNJyeoaqp-158" target="Du6NrvwhtqqdNJyeoaqp-159">
@@ -683,6 +683,11 @@
               <mxPoint x="40" y="490" />
               <mxPoint x="40" y="950" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du6NrvwhtqqdNJyeoaqp-180" value="Deployment" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Du6NrvwhtqqdNJyeoaqp-160">
+          <mxGeometry x="0.407" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Du6NrvwhtqqdNJyeoaqp-158" value=".git&lt;br&gt;docker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">

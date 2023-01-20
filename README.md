@@ -1,5 +1,13 @@
 # crypto-expert
 
+----
+System architecture
+----
+
+![alt text](https://raw.githubusercontent.com/guillaumelauzier/crypto-expert/main/Chantal.drawio.png)
+
+
+
 Here is an example of a matching algorithm in Python that matches data between two MongoDB databases using the standard deviation method:
 
 ```
